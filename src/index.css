@@ -1,12 +1,11 @@
 body {
-  background-color:black;
+  background-color:rgb(25,26,28);
 }
 
 .App{
   align-items: center;
-  max-width: 1200px;
+  max-width: 1180px;
   margin: 10px auto;
-  
   color: white;
 }
 

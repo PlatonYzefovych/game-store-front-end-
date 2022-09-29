@@ -21,21 +21,21 @@
 
 .game-item_genre {
     margin-top: 10px;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
 }
 
 .game-item_details {
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
 .game-item_description{
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 5px;
 }
 
 .game-item_buy {
     position: absolute;
     right: 0;
-    bottom: -12px;
+    bottom: -2px;
 }

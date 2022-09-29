@@ -1,5 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
+import MyButton from './MyButton'
 import './button.css'
 
 export const Button = ({
@@ -11,10 +12,10 @@ export const Button = ({
 }) => {
     const btnClass = classNames({
         'btn': true,
-        'btn--secondary': type == 'secondary',
-        'btn--primary': type == 'primary',
-        'btn--small': size == 's',
-        'btn--medium': size == 'm',
+        'btn--secondary': type === 'secondary',
+        'btn--primary': type === 'primary',
+        'btn--small': size === 's',
+        'btn--medium': size ==='m',
     })
     return (
         <button className={btnClass} onClick={onClick}>
@@ -22,3 +23,4 @@ export const Button = ({
         </button>
     )
 }
+
